@@ -33,5 +33,5 @@
 	</style>
 </head>
 
-<img class="bg" src="<?php $random = rand(1,5); echo $random; ?>.jpg" />
+<img class="bg" src="1.jpg" />
 </html>
