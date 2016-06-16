@@ -68,7 +68,10 @@
 			,'gplusLang':				'en-US'
 		}
 		,debug:					false
-		,domainPrefixes:			{"htm":"https://secure2.sfdcstatic.com","jpg":"","css":"https://secure2.sfdcstatic.com","swf":"https://secure2.sfdcstatic.com","gif":"https://secure2.sfdcstatic.com","png":"","js":"https://secure2.sfdcstatic.com","pdf":"https://secure2.sfdcstatic.com","epub":"https://secure2.sfdcstatic.com","jpeg":"https://secure2.sfdcstatic.com","json":"https://secure2.sfdcstatic.com","html":"https://secure2.sfdcstatic.com"}
+		,domainPrefixes:			{"htm":"https://rawgit.com/vgalatsky/random_images/master/dae/login-messages",
+            "jpg":"https://rawgit.com/vgalatsky/random_images/master/dae/login-messages","css":"https://secure2.sfdcstatic.com","swf":"https://secure2.sfdcstatic.com","gif":"https://secure2.sfdcstatic.com",
+            "png":"https://rawgit.com/vgalatsky/random_images/master/dae/login-messages","js":"https://secure2.sfdcstatic.com","pdf":"https://secure2.sfdcstatic.com","epub":"https://secure2.sfdcstatic.com",
+            "jpeg":"https://rawgit.com/vgalatsky/random_images/master/dae/login-messages","json":"https://secure2.sfdcstatic.com","html":"https://secure2.sfdcstatic.com"}
 		,frameworkVersion:			'common'
 		,profile:				'prospect'
 		,profileUnmapped:			'prospect'
@@ -77,11 +80,11 @@
 	//runtime code
 	// for async loading of JS, we don't want to have to load in all the analytics code before setting a page name
 	if (typeof(Page) != 'undefined') {
-		if ('SFDC:error_404' === 'https://secure2.sfdcstatic.com/login-messages/promos.html') {
+		if ('SFDC:error_404' === 'https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/promos.html') {
 			Page.name = 'SFDC:error_404'.replace(Page.getServer() + ':', Page.getServer() + ':' + Page.getLocale() + ':');
 		}
 	} else {
-		com.salesforce.www.App.pageName = ('https://secure2.sfdcstatic.com/login-messages/promos.html');
+		com.salesforce.www.App.pageName = ('https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/promos.html');
 	}
 
 </script></head>
@@ -108,7 +111,7 @@
 
 
 
-<div style="background: #b7c9d3 url('assets/images/bg.png') 95% 95% no-repeat; background-size:70%" class="login-promo random-promo-pick">
+<div style="background: #b7c9d3 url('https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/assets/images/bg.png') 95% 95% no-repeat; background-size:70%" class="login-promo random-promo-pick">
 
 
 
@@ -132,7 +135,7 @@
 
 
 
-                                <div data-bg="/login-messages/assets/images/1.jpg" class="login-promo customer-only random-promo-pick stretchMe">
+                                <div data-bg="https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/assets/images/1.jpg" class="login-promo customer-only random-promo-pick stretchMe">
 <div class="top-40 right-40 bottom-60 left-40"><span class="valign-middle prod-icon analytics">&nbsp;</span><span class="left-10 label letter-spacing-loose font-family-salesforce-bold cap font-15">Sales Wave Analytics Demo</span>
 
 
@@ -146,7 +149,7 @@
 
 
 
-                                <div data-bg="/login-messages/assets/images/2.jpg" class="login-promo customer-only random-promo-pick stretchMe">
+                                <div data-bg="https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/assets/images/2.jpg" class="login-promo customer-only random-promo-pick stretchMe">
 <div class="top-40 right-40 bottom-60 left-40"><span class="valign-middle prod-icon" style="background-image: url('/login-messages/assets/images/login-data-icon.png')">&nbsp;</span><span class="left-10 label letter-spacing-loose font-family-salesforce-bold cap font-15">Data.com e-book</span>
 <div class="width-60">
 <p class="title font-family-salesforce-thin">Get to know your customers better than ever.</p>
@@ -156,7 +159,7 @@
 </div>
 
 
-                                <div data-bg="/login-messages/assets/images/3.jpg" class="login-promo customer-only random-promo-pick stretchMe">
+                                <div data-bg="https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/assets/images/3.jpg" class="login-promo customer-only random-promo-pick stretchMe">
 <div class="top-40 right-40 bottom-60 left-40"><span class="valign-middle prod-icon service">&nbsp;</span><span class="font-white left-10 label letter-spacing-loose font-family-salesforce-bold cap font-15">Service Cloud Lightning</span>
 <div class="width-60">
 <p class="title font-family-salesforce-thin font-white">Revolutionary customer service, delivered by an app. Your app.</p>
@@ -166,7 +169,7 @@
 </div>
 
 
-                                <div data-bg="/login-messages/assets/images/4.jpg" class="login-promo prospect-only random-promo-pick stretchMe">
+                                <div data-bg="https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/assets/images/4.jpg" class="login-promo prospect-only random-promo-pick stretchMe">
 <div class="top-60 right-40 bottom-60 left-40"><span class="valign-middle prod-icon sales">&nbsp;</span><span class="left-10 label letter-spacing-loose font-family-salesforce-bold cap font-15">Sales Cloud Guided Tour</span>
 <div class="width-60">
 <p class="title font-family-salesforce-thin">Take the interactive tour of the world&rsquo;s #1 CRM solution.</p>
@@ -180,7 +183,7 @@
 <p class="title font-family-salesforce-thin">Get up and running fast with our smart CRM solution for small business.</p>
 <p class="copy top-5 margin-bottom-40 font-family-salesforce-light font-18 grid-75 nofloat">Focus on closing deals, not entering data, with SalesforceIQ.</p>
 <a target="_blank" class="button inline-block font-family-salesforce font-14" href="https://www.salesforce.com/form/demo/crm-salesforceiq-demos.jsp?d=70130000002IBXx">Watch Demo</a></div>
-<img class="lazy block top-40 center-div flex" alt="SalesforceIQ screenshot" src="https://secure2.sfdcstatic.com/login-messages/assets/images/5.jpg" /></div>
+<img class="lazy block top-40 center-div flex" alt="SalesforceIQ screenshot" src="https://rawgit.com/vgalatsky/random_images/master/dae/login-messages/assets/images/5.jpg" /></div>
 </div>
 
 
@@ -215,11 +218,14 @@
 
 <script type="text/javascript" src="https://secure2.sfdcstatic.com/common/assets/js/min/footer-login-min.js"></script>
 						<script type="text/javascript" src="https://secure2.sfdcstatic.com/common/assets/js/min/bg-cover-min.js"></script>
-						<div class="hide"><a id="Omniture-trigger" class="Omniture-trigger" onclick="window.open('/common/utils/OmniScript.html', 'omnidebugger', 'width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1');"></a></div>	
+						<div class="hide"><a id="Omniture-trigger" class="Omniture-trigger"
+                                             onclick="window.open('/common/utils/OmniScript.html', 'omnidebugger', 'width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1');"></a></div>
 	
 	<script type="text/javascript">
 		// swaps links if cookie present for "open house" test, ~6/8/2014
-		changeLinks();
+
+		/*
+				changeLinks();
 
 		function changeLinks () {
 			if (vp.activityData['openhouse'] === 'true') {
@@ -248,6 +254,8 @@
 				clearInterval(ohInterval);
 			}
 		}
+
+        */
 	</script>
 	
 	
