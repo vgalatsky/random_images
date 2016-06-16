@@ -104,19 +104,19 @@
                         "5.jpg"];
 
                     var text1Array = [
-                        "Explore Real World Evidence",
-                        "Explore Real World Evidence",
-                        "Explore Real World Evidence",
-                        "Explore Real World Evidence",
-                        "Explore Real World Evidence"];
+                        "Explore Real World Evidence.",
+                        "Explore Real World Evidence.",
+                        "Explore Real World Evidence.",
+                        "Explore Real World Evidence.",
+                        "Explore Real World Evidence."];
 
 
                     var text2Array = [
-                        "Drive insights from real world data",
-                        "Drive insights from real world data",
-                        "Drive insights from real world data",
-                        "Drive insights from real world data",
-                        "Drive insights from real world data"];
+                        "Drive insights from real world data.",
+                        "Drive insights from real world data.",
+                        "Drive insights from real world data.",
+                        "Drive insights from real world data.",
+                        "Drive insights from real world data."];
 
 
 
